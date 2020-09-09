@@ -1,0 +1,4 @@
+[submodule "precompiled-composum/composum"]
+	path = precompiled-composum/composum
+	url = https://github.com/raducotescu/composum.git
+	branch = feature/precompiled-scripts

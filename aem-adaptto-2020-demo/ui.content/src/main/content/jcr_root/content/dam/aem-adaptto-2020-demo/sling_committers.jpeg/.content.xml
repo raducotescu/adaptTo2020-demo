@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9ccfff07-5dde-460f-9eca-866979183823">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-09-09T11:55:43.795+02:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-09-09T11:55:43.258+02:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}14.222222328186035"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}28.44444465637207"
+            dam:Progressive="no"
+            dam:sha1="5fd4c881aaa83b0c0975d0d7cb33f0351bdca2ae"
+            dam:size="{Long}1401037"
+            dc:creator="[Stefan Wieland]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            dc:rights="Stefan Wieland"
+            dc:title="Apache Sling committers at adaptTo 2019"
+            exif:ColorSpace="{Long}1"
+            exif:ExifVersion="0231"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1024"
+            tiff:ImageWidth="{Long}2048"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="72/1"
+            tiff:YResolution="72/1"
+            xmp:MetadataDate="{Date}2019-09-10T07:57:13.000+02:00"
+            xmpMM:DocumentID="xmp.did:c09c6926-c77e-4b4d-b76a-7056dd58b7a7"
+            xmpMM:InstanceID="xmp.iid:c09c6926-c77e-4b4d-b76a-7056dd58b7a7"
+            xmpMM:OriginalDocumentID="9C6FEC47C8FCDF79FAB0B15FE58075AD"
+            xmpRights:Marked="{Boolean}true">
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2020-09-09T11:57:58.781+02:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

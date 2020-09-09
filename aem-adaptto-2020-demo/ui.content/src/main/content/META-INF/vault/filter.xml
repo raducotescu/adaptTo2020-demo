@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-adaptto-2020-demo" mode="merge"/>
+    <filter root="/content/aem-adaptto-2020-demo" mode="merge"/>
+    <filter root="/content/dam/aem-adaptto-2020-demo" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-adaptto-2020-demo" mode="merge"/>
+</workspaceFilter>
