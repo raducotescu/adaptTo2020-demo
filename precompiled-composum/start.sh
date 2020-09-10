@@ -111,11 +111,16 @@ function error() {
 
 if [[ -f ${LAUNCHER} ]]; then
     for feature in ${ACTIVE_FEATURES}; do
-        java    -jar ${LAUNCHER} \
-                -p ${FEATURES[${feature}.launcher.home]} \
-                -c ${FEATURES[${feature}.launcher.cache]} \
-                -f ${FEATURES[${feature}.mvn]} \
-                -D "org.osgi.service.http.port=${FEATURES[${feature}.port]}" > ${FEATURES[${feature}.launcher.home]}.log 2>&1 &
+        rm -rf  "${FEATURES[${feature}.launcher.home]}" \
+                "${FEATURES[${feature}.launcher.cache]}" \
+                "${FEATURES[${feature}.chrome.profile]}" \
+                "${FEATURES[${feature}.launcher.home]}.log"
+
+        java    -jar "${LAUNCHER}" \
+                -p "${FEATURES[${feature}.launcher.home]}" \
+                -c "${FEATURES[${feature}.launcher.cache]}" \
+                -f "${FEATURES[${feature}.mvn]}" \
+                -D "org.osgi.service.http.port=${FEATURES[${feature}.port]}" > "${FEATURES[${feature}.launcher.home]}.log" 2>&1 &
         
         FEATURES[${feature}.pid]=$!
 
