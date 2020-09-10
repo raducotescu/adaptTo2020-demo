@@ -74,12 +74,6 @@
                             <type>zip</type>
                             <target>/apps/aem-adaptto-2020-demo-packages/content/install</target>
                         </embedded>
-                        <embedded>
-                            <groupId>com.adobe.cotescu</groupId>
-                            <artifactId>aem-adaptto-2020-demo.ui.config</artifactId>
-                            <type>zip</type>
-                            <target>/apps/aem-adaptto-2020-demo-packages/application/install</target>
-                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -178,12 +172,6 @@
         <dependency>
             <groupId>com.adobe.cotescu</groupId>
             <artifactId>aem-adaptto-2020-demo.ui.content</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.cotescu</groupId>
-            <artifactId>aem-adaptto-2020-demo.ui.config</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

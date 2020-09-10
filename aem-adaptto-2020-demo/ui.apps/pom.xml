@@ -110,13 +110,6 @@
 
         <dependency>
             <groupId>com.adobe.cotescu</groupId>
-            <artifactId>aem-adaptto-2020-demo.ui.frontend</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.adobe.cotescu</groupId>
             <artifactId>aem-adaptto-2020-demo.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
