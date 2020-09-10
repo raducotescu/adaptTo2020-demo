@@ -12,6 +12,6 @@ This demo is built from two Maven projects:
 ```bash
 git submodule init
 git submodule update
-mvn --settings composum/settings.xml clean install -DskipTests
+mvn clean install -DskipTests
 ./start.sh
 ```
