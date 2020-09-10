@@ -25,6 +25,7 @@
         <groupId>org.apache.sling</groupId>
         <artifactId>sling</artifactId>
         <version>39</version>
+        <relativePath/>
     </parent>
 
     <artifactId>org.apache.sling.composum-starter-demo</artifactId>
@@ -45,15 +46,15 @@
                 <artifactId>slingfeature-maven-plugin</artifactId>
                 <version>1.3.6</version>
                 <extensions>true</extensions>
-                <configuration>
-                    <replacePropertyVariables>composum.nodes.version,composum.nodes.precompiled.version</replacePropertyVariables>
-                </configuration>
                 <executions>
                     <execution>
                         <id>attach-features</id>
                         <goals>
                             <goal>attach-features</goal>
                         </goals>
+                        <configuration>
+                            <replacePropertyVariables>composum.nodes.version,composum.nodes.precompiled.version</replacePropertyVariables>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
