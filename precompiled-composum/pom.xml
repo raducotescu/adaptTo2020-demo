@@ -21,7 +21,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.apache.sling</groupId>
+    <parent>
+        <groupId>org.apache.sling</groupId>
+        <artifactId>sling</artifactId>
+        <version>39</version>
+    </parent>
+
     <artifactId>org.apache.sling.composum-starter-demo.reactor</artifactId>
     <version>12-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -33,4 +38,18 @@
         <module>composum/sling/core</module>
         <module>sling-feature</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.rat</groupId>
+                <artifactId>apache-rat-plugin</artifactId>
+                <configuration>
+                    <excludes combine.children="append">
+                        <exclude>composum/**/*</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

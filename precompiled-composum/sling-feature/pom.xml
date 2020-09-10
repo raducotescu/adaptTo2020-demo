@@ -21,7 +21,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.apache.sling</groupId>
+    <parent>
+        <groupId>org.apache.sling</groupId>
+        <artifactId>sling</artifactId>
+        <version>39</version>
+    </parent>
+
     <artifactId>org.apache.sling.composum-starter-demo</artifactId>
     <version>12-SNAPSHOT</version>
     <packaging>pom</packaging>
